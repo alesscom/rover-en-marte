@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#micanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Explorador de Marte</title>
+</head>
+<body onload="agregar();">
+<center>
+<h1>Mueve el explorador de Marte</h1>
+<h4>
+	<b class="text-danger">NOTA : </b> SI NO SE VE EL EXPLORADOR, PRESIONA CUALQUIERA DE LAS FLECHAS
+</h4>
+<canvas id="micanvas" width="800" height="600"></canvas>
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
